@@ -34,17 +34,15 @@ function display_error(){
 function is_brew_cask_installed(){
     if brew cask info $1 | grep -i "Not Installed"; then
         return 1
-    else
-        return 0
     fi
+    return 0
 }
 
 function is_brew_package_installed(){
     if brew info $1 | grep -i "Not Installed"; then
         return 1
-    else
-        return 0
     fi
+    return 0
 }
 
 function install_homebrew(){
