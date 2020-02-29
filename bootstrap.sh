@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #title           :bootstrap.sh
-#description     :Script for bootstraping the E2E automation framework environment on new macOS machines
+#description     :Script for bootstraping Appium's environment on macOS
 #author          :pespinel
 #date            :2019/03/01
 #version         :0.1
